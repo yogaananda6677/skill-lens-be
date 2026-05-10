@@ -6,6 +6,12 @@ import { UserModule } from './user/user.module';
 import { AdminModule } from './admin/admin.module';
 import { GuruModule } from './guru/guru.module';
 import { SiswaModule } from './siswa/siswa.module';
+import { SekolahModule } from './sekolah/sekolah.module';
+import { JurusanModule } from './jurusan/jurusan.module';
+import { SemesterModule } from './semester/semester.module';
+import { MataPelajaranModule } from './mata_pelajaran/mata_pelajaran.module';
+import { KurikulumMapelModule } from './kurikulum_mapel/kurikulum_mapel.module';
+import { NilaiSiswaModule } from './nilai_siswa/nilai_siswa.module';
 
 @Module({
   imports: [
@@ -23,6 +29,12 @@ import { SiswaModule } from './siswa/siswa.module';
     AdminModule,
     GuruModule,
     SiswaModule,
+    SekolahModule,
+    JurusanModule,
+    SemesterModule,
+    MataPelajaranModule,
+    KurikulumMapelModule,
+    NilaiSiswaModule,
   ],
   controllers: [AppController],
   providers: [AppService],
